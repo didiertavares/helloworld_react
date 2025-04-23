@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World | REACT</title>
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+        <!-- Don't use this in production: -->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+      </head>
+      <body>
+        <div id="root"></div>
+        
+        <script type="text/babel">
+          // código abaixo copiado do ítem "try React" no site React.dev
+          //function MyApp() {
+          //  return <h1>Hello, world!</h1>;
+          //}
+    
+          //const container = document.getElementById('root');
+          //const root = ReactDOM.createRoot(container);
+          //root.render(<MyApp />);
+
+          //código abaixo copiado da videoaula Lucas Eliti - Hello World com react
+          function Hello()  {
+            return <h1>Hello, World!</h1>;
+          }
+          //ReactDOM.render(
+          //  <Hello />,
+          //  document.getElementById("root")
+          //);
+
+          //código abaixo copiado do exemplo videoaula Lucas Eliti - Contador com React
+          function Contador() {
+            return <div>
+              <h1>Contador</h1>
+              <p>0</p>
+              <button>mais</button>   
+            </div>
+          }
+          ReactDOM.render(
+            <Contador />,
+            document.getElementById("root")
+          );
+
+
+
+
+    
+        </script>
+      </body>
+    </html>
